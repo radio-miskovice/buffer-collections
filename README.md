@@ -10,8 +10,18 @@ npm install buffer-collections
 
 ## Usage
 
-```
-// Example usage will go here
+```typescript
+
+import { BufferMap } from 'buffer-collections'
+
+const b1 = Buffer.from('CAFE8BCD77AE', 'hex')
+const m1 = new BufferMap<string>()
+m1.set( b1, 'Some value')
+
+const b2 = Buffer.from(b1) // creates a copy of content of b1, but a different reference
+
+console.log( m1.has(b2)) // true
+
 ```
 
 ## License
