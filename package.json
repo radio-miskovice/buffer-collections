@@ -15,7 +15,7 @@
     "type": "git",
     "url": "git+https://github.com/radio-miskovice/buffer-collections.git"
   },
-  "keywords": [],
+  "keywords": ["Buffer", "Map", "Set", "buffer collections"],
   "author": "",
   "license": "MIT",
   "bugs": {
